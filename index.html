@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Natasha Mae Lagunay — BSIT student at EVSU Carigara Campus">
+  <title>Natasha Mae Lagunay | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>NL<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">
+            Natasha Mae
+            <span class="gradient-text">Lagunay</span>
+          </h1>
+          <p class="hero-role">
+            <span class="typing-text" id="typingText"></span>
+            <span class="typing-cursor">|</span>
+          </p>
+          <p class="hero-desc">
+            BSIT student at Eastern Visayas State University — passionate about technology,
+            learning, and building a future in IT.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#gallery" class="btn btn-outline">View Gallery</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">18</span>
+              <span class="stat-label">Years Old</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">BSIT</span>
+              <span class="stat-label">1A</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">EVSU</span>
+              <span class="stat-label">Carigara</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <div class="profile-ring"></div>
+            <img src="images/profile.png" alt="Natasha Mae Lagunay" class="profile-img" width="380" height="380">
+            <div class="profile-badge">
+              <span class="badge-dot"></span>
+              Available for projects
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// about_me</span>
+          <h2 class="section-title">Who I Am</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <p class="about-intro">
+              I am <strong>Natasha Mae Lagunay</strong>, an 18-year-old BSIT student at
+              Eastern Visayas State University Carigara Campus. I am passionate about learning
+              and improving my skills in technology. I am motivated to grow and gain more knowledge
+              for my future career in the IT field.
+            </p>
+          </div>
+          <div class="info-cards reveal">
+            <div class="info-card">
+              <span class="info-icon">📍</span>
+              <div>
+                <h3>Address</h3>
+                <p>Pob. District VI, Barugo, Leyte</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🎂</span>
+              <div>
+                <h3>Birthday</h3>
+                <p>September 10, 2007</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🎓</span>
+              <div>
+                <h3>Course</h3>
+                <p>BSIT — 1A</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🎬</span>
+              <div>
+                <h3>Hobby</h3>
+                <p>Watching movies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// skills</span>
+          <h2 class="section-title">What I Bring</h2>
+        </div>
+        <div class="skills-grid reveal">
+          <article class="skill-card">
+            <div class="skill-icon">⏱</div>
+            <h3>Time Management</h3>
+            <p>Balancing academics, projects, and personal growth effectively.</p>
+            <div class="skill-bar"><span style="--progress: 90%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">🧩</div>
+            <h3>Problem Solving</h3>
+            <p>Breaking down challenges into clear, actionable steps.</p>
+            <div class="skill-bar"><span style="--progress: 85%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">💡</div>
+            <h3>Critical Thinking</h3>
+            <p>Analyzing situations logically before making decisions.</p>
+            <div class="skill-bar"><span style="--progress: 88%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">💬</div>
+            <h3>Communication Skills</h3>
+            <p>Expressing ideas clearly in team and academic settings.</p>
+            <div class="skill-bar"><span style="--progress: 92%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// education</span>
+          <h2 class="section-title">Academic Journey</h2>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2025 — Present</span>
+              <h3>College</h3>
+              <p class="timeline-school">Eastern Visayas State University — Carigara Campus</p>
+              <p class="timeline-detail">Bachelor of Science in Information Technology</p>
+              <p class="timeline-location">Brgy. Barugohay Norte, Carigara, Leyte</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2023 — 2025</span>
+              <h3>Senior High School</h3>
+              <p class="timeline-school">Barugo National High School</p>
+              <p class="timeline-location">Pob. District II, Barugo, Leyte</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2019 — 2023</span>
+              <h3>Junior High School</h3>
+              <p class="timeline-school">Barugo National High School</p>
+              <p class="timeline-location">Pob. District II, Barugo, Leyte</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2013 — 2019</span>
+              <h3>Elementary</h3>
+              <p class="timeline-school">Barugo I Central Elementary School</p>
+              <p class="timeline-location">Pob. District II, Barugo, Leyte</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// gallery</span>
+          <h2 class="section-title">Tech & Interests</h2>
+          <p class="section-subtitle">A glimpse into the world of technology and my favorite hobby — movies.</p>
+        </div>
+        <div class="gallery-filters reveal" id="galleryFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="tech">Technology</button>
+          <button class="filter-btn" data-filter="movies">Movies</button>
+        </div>
+        <div class="gallery-grid reveal" id="galleryGrid">
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1517694712202-8dd079c4a011?w=600&q=80" alt="Coding on laptop" loading="lazy">
+            <figcaption><span>Coding</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" alt="Programming workspace" loading="lazy">
+            <figcaption><span>Development</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" alt="Global technology network" loading="lazy">
+            <figcaption><span>Networking</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80" alt="Robotics and AI" loading="lazy">
+            <figcaption><span>AI & Robotics</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80" alt="Server room" loading="lazy">
+            <figcaption><span>Infrastructure</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80" alt="Tech gadgets" loading="lazy">
+            <figcaption><span>Gadgets</span></figcaption>
+          </figure>
+          <figure class="gallery-item wide" data-category="movies">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80" alt="Cinema experience" loading="lazy">
+            <figcaption><span>Cinema Nights</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="movies">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e63?w=600&q=80" alt="Movie projector" loading="lazy">
+            <figcaption><span>Film Projector</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="movies">
+            <img src="https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=600&q=80" alt="Popcorn and movies" loading="lazy">
+            <figcaption><span>Movie Snacks</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="movies">
+            <img src="https://images.unsplash.com/photo-1594909126631-4e4a0fb3d8f0?w=600&q=80" alt="Home theater setup" loading="lazy">
+            <figcaption><span>Home Theater</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="tech">
+            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80" alt="Cybersecurity concept" loading="lazy">
+            <figcaption><span>Cybersecurity</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="movies">
+            <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=600&q=80" alt="Film reels" loading="lazy">
+            <figcaption><span>Classic Films</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">// contact</span>
+          <h2 class="section-title">Let's Connect</h2>
+        </div>
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <p class="contact-text">
+              Feel free to reach out for collaborations, academic inquiries, or just a friendly hello.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Full Name</span>
+                <span>Lagunay, Natasha Mae Capaycapay</span>
+              </li>
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:natashalagunay1@gmail.com">natashalagunay1@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+639103656604">0910 365 6604</a>
+              </li>
+              <li>
+                <span class="contact-label">School</span>
+                <span>Eastern Visayas State University — Carigara Campus</span>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Natasha Mae Lagunay. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img src="" alt="" id="lightboxImg">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
